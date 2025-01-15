@@ -1,0 +1,5 @@
+tugas = int(input("masukan nilai tugas mahasiswa : "))
+uts = int (input("masukan nilai uts mahasiswa : "))
+uas = int(input("masukan nilai uas mahasiswa : "))
+nilaiakhir = (0.3 * uts) + (0.5 * uas) + (0.2 * tugas)
+print ("nilai akhir mahasiswa",nilaiakhir)
